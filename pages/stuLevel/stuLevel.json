@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "i-panel": "../../dist/panel/index",
+    "i-card": "../../dist/card/index",
+    "i-icon": "../../dist/icon/index"
+  },
+  
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "文轩图书"
+  
+}

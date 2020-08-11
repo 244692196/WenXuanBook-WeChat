@@ -1,0 +1,49 @@
+/* pages/Content/Content.wxss */
+page {
+  background-color: #F0E5D1;
+}
+
+.border {
+  border: 1rpx solid red;
+}
+
+.faContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 720rpx;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+.sonBox {
+  width: 50%;
+  margin-top: 40rpx;
+}
+
+.i-card-header {
+  padding: 0;
+}
+
+.sonBox .con_img {
+  text-align: center;
+}
+.con_middel {
+  /* 两行文字之后省略号 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;             
+  overflow: hidden;
+}
+
+.con_footer {
+  /* 单行文字之后省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

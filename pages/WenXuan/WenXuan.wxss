@@ -1,0 +1,44 @@
+/* pages/Box/Box.wxss */
+page{
+  background-color: #F0E5D1;
+}
+  
+.border{
+   border: 1rpx solid red;
+ }
+  
+.Box{
+  height: 1100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+}
+
+.textBox{
+  height:400rpx;
+  width: 400rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.textBox1{
+  height: 200rpx;
+  width: 350rpx;
+  font-size: 100rpx;
+  color: #555450;
+  text-align-last: justify;
+}
+  
+  .buttonBox{
+    height: 100rpx;
+    width: 300rpx;
+    font-size: 5rpx;
+    position: absolute;
+    left: 220rpx;
+    top:850rpx;
+  }
+  

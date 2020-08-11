@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/WenXuan/WenXuan",
+    "pages/testArea/testArea",
+    "pages/stuLevel/stuLevel",
+    "pages/Content/Content",
+    "pages/testDetails/testDetails"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+<!--pages/testArea/testArea.wxml-->
+<view class="testArea">
+	<view class="testA_con" wx:for="{{testAreaList}}" wx:key="index" bindtap="ngContent"
+	 data-item="{{item}}">
+		<view class="testA_item">
+			<text wx:if="{{index=='0' || index=='2'}}" class="iconfont icon-icon_xinyong_xianxing_jijin-"></text>
+			<text wx:if="{{index=='1' || index=='3'}}" class="iconfont icon-shijuan"></text>
+			<text>{{item}}</text>
+		</view>
+	</view>
+</view>

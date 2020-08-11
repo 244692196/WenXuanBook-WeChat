@@ -1,0 +1,13 @@
+<!--pages/Content/Content.wxml-->
+<view class="faContent">
+  <view class="content">
+    <view class="sonBox" wx:for="{{arrList}}" wx:key="index" bindtap="toDetail">
+      <i-card i-class="con_img" thumb="{{item.imgUrl}}">
+        <view class="con_middel" slot="content">{{item.name}}</view>
+        <view class="con_footer" slot="footer">{{item.nameT}}</view>
+      </i-card>
+    </view>
+  </view>
+</view>
+
+

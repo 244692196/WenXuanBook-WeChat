@@ -1,0 +1,17 @@
+<view class="Box">
+
+  <!--首页logo-文轩图书-->
+  <view>
+    <view class="textBox">
+      <view class="textBox1" decode="{{true}}">文轩</view>
+      <view class="textBox1" decode="{{true}}">图书</view>
+    </view>
+  </view>
+
+  <!--首页按钮-进入主界面-->
+  <view class="buttonBox">
+    <navigator url="../stuLevel/stuLevel?title=stuLevel" open-type="navigate" hover-class="navigator-hover">
+      <i-button bind:click="handleClick">进入文轩图书</i-button>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view class="textDetails">
+	<view class="detail_con">
+		<view class="con_top">
+			<view class="con_top_img">
+        <image	src="../../img/Content/生物.png" mode="widthFix"></image>
+      </view>
+			<view class="con_top_text">
+        <text class="title">学业水平考试卷——生物</text>
+        <text>主编:付振乾</text>
+        <text>出版社:中国地图出版社</text>
+        <text>副标题:衡水重点中学会考及中考指定用卷</text>
+        <text>定价:￥29.8</text>
+      </view>
+		</view>
+    <view class="con_bottom">
+      <text class="con_bottom_brief">内容简介</text>
+      <text>初中生物学业水平考试卷全真模拟卷2020初二生物会考中考资料系统复习卷八年级备考试题衡水中学。初中生物学业水平考试卷全真模拟卷2020初二生物会考中考资料系统复习卷八年级备考试题衡水中学。</text>
+      <button class="con_bottom_btn">查看样书</button>
+		</view>
+	</view>
+</view>

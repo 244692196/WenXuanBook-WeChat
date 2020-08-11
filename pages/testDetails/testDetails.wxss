@@ -1,0 +1,62 @@
+/* pages/testDetails/testDetails.wxss */
+page {
+  background-color: #F0E5D1;
+
+}
+.textDetails{
+  width: 100vw;
+}
+.con_top{
+  display: flex;
+  width: 100%;
+  height: 440rpx;
+  padding-top: 60rpx;
+  box-sizing: border-box;
+  border-bottom:1rpx solid #ccc ;
+
+}
+.con_top .con_top_img{
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  height: 100%;
+}
+.con_top .con_top_img image{
+  width: 80%;
+}
+.con_top .con_top_text{
+  display: flex;
+  flex-direction:column;
+  height: 100%;
+  padding: 5rpx 30rpx 0 15rpx ;
+}
+.con_top .con_top_text text{
+  font-size:30rpx ;
+  line-height: 45rpx;
+  color: #333;
+}
+.con_top .con_top_text .title{
+  font-size:35rpx ;
+  font-weight: bold;
+  margin-bottom:40rpx;
+}
+.con_bottom{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding:10rpx 40rpx;
+  font-size:30rpx ;
+}
+.con_bottom .con_bottom_brief{
+  font-size:40rpx ;
+  font-weight: bold;
+  margin-bottom:30rpx;
+}
+.con_bottom .con_bottom_btn{
+  font-size:30rpx ;
+  width: 220rpx;
+  height: 70rpx;
+  margin:30rpx 0 0 0;
+  line-height: 70rpx;
+  background-color: #F8F4E8;
+}

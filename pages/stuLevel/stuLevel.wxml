@@ -1,0 +1,8 @@
+<!--pages/stuLevel/stuLevel.wxml-->
+<view class="container">
+	<view class="boxLevel" wx:for="{{levelList}}" wx:key="index" bindtap="toTestArea" data-item="{{item}}">
+		<text wx:if="{{item=='小学' || item=='高中'}}" class="iconfont icon-xiaoxue-copy"></text>
+		<text wx:if="{{item=='初中' || item=='职高'}}" class="iconfont icon-lvyouchengshijianzhucity-xiaoxuedaxuechuzhonggaozhongs"></text>
+		<text>{{item}}</text>
+	</view>
+</view>
